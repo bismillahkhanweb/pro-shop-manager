@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dbeafe" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="url(#tile)"/>
+  <rect x="120" y="120" width="700" height="160" rx="24" fill="#1e293b" opacity="0.85"/>
+  <rect x="140" y="152" width="360" height="36" rx="18" fill="#e2e8f0"/>
+  <rect x="140" y="206" width="220" height="24" rx="12" fill="#cbd5e1"/>
+  <rect x="140" y="246" width="280" height="24" rx="12" fill="#cbd5e1"/>
+  <path d="M900 190H980C988.284 190 995 196.716 995 205V370C995 378.284 988.284 385 980 385H900C891.716 385 885 378.284 885 370V205C885 196.716 891.716 190 900 190Z" fill="#1d4ed8"/>
+  <path d="M820 245H880C888.284 245 895 251.716 895 260V370C895 378.284 888.284 385 880 385H820C811.716 385 805 378.284 805 370V260C805 251.716 811.716 245 820 245Z" fill="#60a5fa"/>
+  <path d="M740 295H800C808.284 295 815 301.716 815 310V370C815 378.284 808.284 385 800 385H740C731.716 385 725 378.284 725 370V310C725 301.716 731.716 295 740 295Z" fill="#93c5fd"/>
+  <circle cx="860" cy="120" r="22" fill="#fb923c"/>
+  <circle cx="930" cy="130" r="14" fill="#fef08a"/>
+  <text x="150" y="440" fill="#0f172a" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="700">ProShop Manager</text>
+  <text x="150" y="512" fill="#334155" font-family="Inter, system-ui, sans-serif" font-size="28">Retail POS, inventory, and sales analytics in one dashboard</text>
+</svg>
