@@ -1,45 +1,57 @@
-<<<<<<< HEAD
-
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
 # ProShop Manager
 
-ProShop Manager is a modern retail management dashboard that combines POS, inventory control, sales analytics, and team settings into one streamlined app.
+ProShop Manager is a modern retail management dashboard that combines point-of-sale (POS), inventory tracking, and sales analytics into one streamlined web app.
 
-This repository contains everything you need to run the app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/14f614d4-71e7-4619-a04c-f83f6099bb15
+- Real-time POS interface
+- Inventory management and stock alerts
+- Sales dashboard with charts and reports
+- User roles and basic settings
 
-## Run Locally
+## Quick Start
 
-**Prerequisites:** Node.js
+**Prerequisites:** Node.js (16+ recommended)
 
-1. Install dependencies:
+1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-2. Copy `.env.example` to `.env.local` and set the `GEMINI_API_KEY` if you plan to use AI features:
+2. Configure environment
 
-   ```bash
-   cp .env.example .env.local
-   # then edit .env.local and add GEMINI_API_KEY
-   ```
+```bash
+cp .env.example .env.local
+# edit .env.local and set GEMINI_API_KEY if you plan to use AI features
+```
 
-3. Run the app in development mode:
+3. Run development server
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
-## Build
+4. Build for production
 
 ```bash
 npm run build
 ```
+
+## Repository Structure
+
+- `src/` — React app source
+- `public/` — static assets (card-image.svg)
+- `index.html` — app entry HTML
+- `package.json` — scripts and dependencies
+
+## Contributing
+
+Contributions are welcome. Please open issues or pull requests on GitHub.
+
+## License
+
+This project does not include a license file. Add a `LICENSE` if you want to make the project's license explicit.
 
 ## Contact
 
