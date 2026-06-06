@@ -15,4 +15,3 @@ coverage/
 .vite/
 
 # Lockfiles
-package-lock.json
